@@ -1,0 +1,72 @@
+html{
+    background: black url(./assets/background.jpg)center center no-repeat;
+    color: aliceblue;
+    place-items: center;}
+    
+    .body{
+        display: block;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        line-height: 1.5em;
+        place-items: center;}
+        @media(min-width: 500px){body{display: grid;}}
+
+.Container{
+    font-size: clamp(1rem,2vw,2rem);
+    background:  rgb(39, 107, 190);
+    padding: 1rem;
+    border-radius: 2rem;
+    line-height: 1.5em;}
+@media(min-width: 300px){.Container{margin:2vh; padding: 2rem;border-radius: 2rem;}}
+@media(min-width:500px){.Container{margin: 7vw; padding: 3rem;}}
+
+.Avatar{
+    display: block;
+    border-radius: 50%;
+    margin: 0,1em,0,0;
+    float: left;
+    width: 112px;
+    height: 115px;
+    
+}
+@media(min-width:300px){.Avatar{float: left;}}
+
+.TitlulPaginii{
+    display: block;
+    margin: 2rem,6vw,4rem;
+    line-height: 1.5em;
+}
+.DescrierePrincipala{
+    display: block;
+    margin: 0.5em, 0 ,1.5em;
+    
+}
+/* .main{
+
+} */
+.ListaMain{
+    display: block;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #fff;
+}
+.ListaLink{
+    display: block;
+    text-decoration: none;
+    padding:0.5em ;color: #fff;
+}.ListaLink:hover{color: black;}
+.ListaItem{
+    display: block;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #fff;
+}
+.ListaText{}
+.ListaText{
+    display:block;
+    margin: 0;
+    padding:0;
+    font-size: 1em;
+    line-height: 1.5em;
+}
